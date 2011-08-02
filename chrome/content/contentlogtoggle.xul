@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://contentlogtoggle/skin/skin.css" type="text/css"?>
+
+<!DOCTYPE overlay SYSTEM "chrome://tabcounter/locale/tabcounter.dtd">
+<overlay id="felipc-contentlog-toggle-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <toolbarpalette id="BrowserToolbarPalette">
+    <toolbarbutton id="felipc-contentlog-toggle-button" class="toolbarbutton-1"
+      label="Toggle ContentLog" tooltiptext="Toggle ContentLog"
+      type="checkbox" oncommand="felipc_contentlog.command()"/>
+  </toolbarpalette>
+
+  <script type="application/x-javascript" src="chrome://contentlogtoggle/content/contentlogtoggle.js"/>
+</overlay>

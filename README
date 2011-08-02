@@ -1,0 +1,4 @@
+Adds a toolbar toggle button to switch the pref browser.contentLog.isEnabled from bug 666713
+
+Download packaged add-on at:
+https://github.com/downloads/felipc/contentlog-toggle/contentlogtoggle.xpi

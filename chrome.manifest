@@ -1,0 +1,3 @@
+content	contentlogtoggle	chrome/content/
+skin contentlogtoggle skin chrome/skin/
+overlay	chrome://browser/content/browser.xul	chrome://contentlogtoggle/content/contentlogtoggle.xul
